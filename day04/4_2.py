@@ -72,4 +72,4 @@ for drawn_number in drawn_numbers:
             remove_idx.append(board_idx)
     # remove bingo boards
     for i in reversed(remove_idx):
-        boards.pop(i)
+        del boards[i]
